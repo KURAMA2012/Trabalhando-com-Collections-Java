@@ -1,0 +1,24 @@
+package aula01.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ExemploList {
+
+	public static void main(String[] args) {
+		
+		List<Double> notas = new ArrayList<Double>();
+		notas.add(7.0);
+		notas.add(5.0);	
+		notas.add(6.0);	
+		notas.add(7.0);	
+		notas.add(4.0);	
+		notas.add(3.0);	
+		notas.add(1.0);	
+		notas.add(2.0);	
+		System.out.println(notas.toString());
+		System.out.println("Indice: " +notas.indexOf(5d));
+
+	}
+
+}
